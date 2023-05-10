@@ -27,7 +27,7 @@ body {
 
 @media screen and (max-width: 1400px) {
     .header {
-        height: 200px !important;
+        height: 150px !important;
         gap: 0.5rem;
     }
 }
