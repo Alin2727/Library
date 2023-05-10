@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #DBDFEA;
-    height: 20vh;
+    height: 200px;
     box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
     gap: 1rem;
 }
@@ -27,7 +27,7 @@ body {
 
 @media screen and (max-width: 1400px) {
     .header {
-        height: 27vh !important;
+        height: 200px !important;
         gap: 0.5rem;
     }
 }
@@ -37,13 +37,13 @@ h1 {
     text-align: center;
     margin: 0 auto;
     top: 15px;
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: #475569;
 }
 
 #new-book-btn {
     display: block;
-    margin: 20px auto;
+    margin: 15px auto;
     padding: 10px 25px;
     background-color: #f4f4f5;
     color: #020617;
