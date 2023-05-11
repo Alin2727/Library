@@ -97,7 +97,7 @@ function render() {
       let read = document.querySelector("#read").checked;
 
       let newBook = new Book(title, author, pages, read);
-      myLibrary.push(newBook);
+      myLibrary.unshift(newBook);
       render();
       saveLocal();
       }
