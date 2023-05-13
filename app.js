@@ -14,10 +14,6 @@ const saveLocal = () => {
   const books = JSON.parse(localStorage.getItem('library'));
   if (books) {
     myLibrary = books.map((newBook) => JSONToBook(newBook));
-    // if(myLibrary.length === 0){
-    //   let newBook = new Book("Luceafarul", "Mihai Eminescu", "245", true);
-    //   myLibrary.push(newBook);
-    // }
     render();
   } else {
     myLibrary = [];
